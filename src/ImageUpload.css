@@ -1,0 +1,34 @@
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageupload__progress {
+  width: 100%;
+}
+
+.btn {
+  width: 20%;
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  padding: 5px 5px;
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 5px;
+  overflow: hidden;
+  transition: 0.2s;
+
+}
+.btn:hover {
+  color: #e24b91;
+  background: #e24b91;
+  box-shadow: 0 0 5px #e24b91, 0 0 20px #e24b91, 0 0 5px #e24b91;
+  transition-delay: 0s;
+}
